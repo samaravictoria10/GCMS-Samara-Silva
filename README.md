@@ -6,4 +6,4 @@ Repositório da turma de GCMS do IFPE-Recife, 2025.2
 
 Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 
-*Samara Silva (@samaravictoria10, dona)
+* Samara Silva (@samaravictoria10, dona)
