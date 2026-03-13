@@ -14,7 +14,14 @@ public class HomeController {
 	}
 	
 	@RequestMapping("/samara")
-	public @ResponseBody String greetingFulano() {
+	public @ResponseBody String greetingSamara() {
 	return "Hello, Samara!";
+	}
+	
+	// alteração feita na original
+	@RequestMapping("/mudanca")
+	public @ResponseBody String greetingMudanca() {
+	return "Hello, Mudança!";
+	
 	}
 }
