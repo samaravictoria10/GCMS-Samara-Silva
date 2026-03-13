@@ -24,7 +24,7 @@ public class HomeController {
 	}
 
 	// alteração feita na copia
-	@RequestMapping("/samara")
+	@RequestMapping("/copia")
 	public @ResponseBody String greetingCopia() {
 		return "Hello, Cópia!";
 	}
@@ -35,4 +35,10 @@ public String mainEndpoint() {
     return "Alteração feita na main";
 }
 
+	@RequestMapping("/hotfix")
+@ResponseBody
+public String hotfix() {
+    return "Hotfix adicionado";
+
+}
 }
