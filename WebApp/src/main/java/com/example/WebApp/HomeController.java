@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-
 @Controller
 public class HomeController {
 
@@ -22,6 +21,11 @@ public class HomeController {
 	@RequestMapping("/mudanca")
 	public @ResponseBody String greetingMudanca() {
 	return "Hello, Mudança!";
-	
+	}
+
+	// alteração feita na copia
+	@RequestMapping("/samara")
+	public @ResponseBody String greetingCopia() {
+		return "Hello, Cópia!";
 	}
 }
