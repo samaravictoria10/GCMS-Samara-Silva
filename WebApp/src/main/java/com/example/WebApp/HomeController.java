@@ -28,4 +28,11 @@ public class HomeController {
 	public @ResponseBody String greetingCopia() {
 		return "Hello, Cópia!";
 	}
+
+	@RequestMapping("/main")
+@ResponseBody
+public String mainEndpoint() {
+    return "Alteração feita na main";
+}
+
 }
